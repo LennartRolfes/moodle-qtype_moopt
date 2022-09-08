@@ -337,7 +337,7 @@ class qtype_moopt_question extends question_graded_automatically {
             }
         }
 
-        return $returnstate;
+        return question_state::$needsgrading;
     }
 
     /**
